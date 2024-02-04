@@ -9,6 +9,8 @@ const app = express();
 mongoose.connect(mongoString);
 const database = mongoose.connection
 
+
+console.log(mongoString)
 // enable JSON body parser
 app.use(express.json());
 
