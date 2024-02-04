@@ -25,3 +25,4 @@ database.once('connected', () => {
     console.log(database.name);
 })
 export default app;
+module.exports = app;
