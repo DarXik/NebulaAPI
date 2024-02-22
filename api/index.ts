@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from "mongoose";
 import {router} from "../routes/routes";
 import dotenv from 'dotenv';
+
 dotenv.config()
 
 const mongoString = process.env.DATABASE_URL ?? "mongodb+srv://davca:oh72VER5cXKOz33W@nebulaapi.xvcugto.mongodb.net/PossibleNames";
