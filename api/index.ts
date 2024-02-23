@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config()
 
-const mongoString = process.env.DATABASE_URL ?? "mongodb+srv://davca:oh72VER5cXKOz33W@nebulaapi.xvcugto.mongodb.net/PossibleNames";
+const mongoString = process.env.DATABASE_URL ?? "mongodb+srv://davca:8oyPePYwEAGYbtih@nebulaapi.xvcugto.mongodb.net/PossibleNames";
 const app = express();
 mongoose.connect(mongoString);
 const database = mongoose.connection
